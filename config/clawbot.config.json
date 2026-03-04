@@ -1,5 +1,5 @@
 {
-  "target_repo": "<OWNER>/<SPEC_REPO>",
+  "target_repo": "ripper234/tiny-pr-bot",
   "timezone": "Asia/Jerusalem",
   "daily_run_time": "06:00",
   "max_daily_cost_usd": 10,
