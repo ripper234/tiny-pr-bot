@@ -1,0 +1,37 @@
+{
+  "target_repo": "<OWNER>/<SPEC_REPO>",
+  "timezone": "Asia/Jerusalem",
+  "daily_run_time": "06:00",
+  "max_daily_cost_usd": 10,
+
+  "telegram": {
+    "bot_token": "<TELEGRAM_TOKEN>",
+    "chat_id": "<TELEGRAM_CHAT_ID>"
+  },
+
+  "github": {
+    "auth_type": "fine_grained_pat",
+    "token": "<GITHUB_TOKEN>",
+    "permissions_expectation": {
+      "contents": "read",
+      "pull_requests": "write"
+    }
+  },
+
+  "google": {
+    "sheet_id": "<SHEET_ID>",
+    "state_tab_name": "State",
+    "log_tab_name": "Log",
+    "service_account_json_path": "config/google-service-account.json"
+  },
+
+  "behavior": {
+    "baseline_effort": 1.0,
+    "nope_effort_multiplier": 1.4,
+    "max_files_per_pr": 3,
+    "preferred_max_lines_changed": 2,
+    "preferred_max_files_changed": 1,
+    "reminder_frequency": "daily",
+    "weekly_pulse_day": "Sunday"
+  }
+}
