@@ -1,0 +1,8 @@
+# environment
+.env
+
+# local secrets
+secrets/
+
+# OS junk
+.DS_Store
