@@ -101,6 +101,6 @@ docs/
 
 ## Status
 
-Early experimental build.
+Active. Currently operated by [Jarvis](https://github.com/ripper234-openclaw) via OpenClaw, targeting this repo.
 
 Goal: create a **self-improving spec assistant** that helps move projects forward with minimal cognitive overhead.
