@@ -26,7 +26,7 @@ Triggered only when no PR is pending and none is being prepared:
 4. Send Telegram notification
 5. Log the action
 
-If no genuinely useful improvement exists, the bot may enter a **idle state** instead of submitting filler. It should log "no useful PR found" and retry on the next polling cycle.
+If no genuinely useful improvement exists, the bot may enter a **idle state** instead of submitting filler. It should log "no useful PR found" and retry on the next polling cycle. Once a day, if the bot is **idle**, the bot should allocate a larger effort in credits (UP TO MAX_ACTIVATION_CREDIT_CAP) to finding and submitting a **useful PR**.
 
 Allow up to 60 minutes for generation to ensure quality over speed.
 
