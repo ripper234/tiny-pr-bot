@@ -33,7 +33,7 @@ The direction is correct but the PR needs adjustment.
 Bot behavior:
 - keep current effort level
 - incorporate feedback
-- retry in the next scheduled run
+- retry in the next polling cycle
 
 ---
 
@@ -51,7 +51,7 @@ Bot behavior:
 NOW
 
 Meaning:
-Run immediately instead of waiting for the next scheduled run.
+Run immediately instead of waiting for the next polling cycle.
 
 Bot behavior:
 - execute one immediate run
