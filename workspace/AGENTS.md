@@ -11,8 +11,8 @@ The bot maintains a continuous loop with two layers:
 Every 5 minutes, a simple script checks:
 
 1. Is there an open PR awaiting review? → Do nothing.
-2. Has a PR just been approved/rejected? → Trigger the generation layer.
-3. Is the bot currently generating a PR? → Do nothing.
+2. Is the bot currently generating a PR? → Do nothing.
+3. Otherwise → Trigger the generation layer.
 
 This check is a constant-cost API call (GitHub PR status), not an LLM call.
 
