@@ -90,9 +90,7 @@ The bot maintains minimal state:
 - effort_level
 - paused
 
-State can be stored in:
-
-- Google Sheets state tab
+State is stored in the Google Sheets state tab.
 
 ## Weekly Stats Pulse
 
