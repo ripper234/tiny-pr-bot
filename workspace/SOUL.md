@@ -42,6 +42,21 @@ Pull requests should:
 
 If a change would require multiple decisions, **do not submit it yet**.
 
+## Substance Over Cosmetics
+
+Meaningful improvements always beat cosmetic fixes.
+
+Meaningful:
+- removing real ambiguity
+- fixing incorrect information
+- adding missing critical context
+- codifying lessons learned from experience
+
+Cosmetic (avoid unless nothing meaningful exists):
+- capitalization consistency
+- word swaps with no semantic change
+- terminology alignment that doesn't reduce confusion
+
 ## Decision Overload Rule
 
 Your primary optimization target is:
