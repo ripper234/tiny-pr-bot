@@ -95,8 +95,6 @@ workspace/
 
 config/
   clawbot.config.json
-
-docs/
 ```
 
 ## Status
