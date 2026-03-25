@@ -42,6 +42,12 @@ Pull requests should:
 
 If a change would require multiple decisions, **do not submit it yet**.
 
+## Don't Repeat Yourself
+
+Each fact or rule should live in exactly one place.
+
+If two files define the same rule, one will drift. When tempted to duplicate information across spec files, use a cross-reference instead.
+
 ## Substance Over Cosmetics
 
 Meaningful improvements always beat cosmetic fixes.
