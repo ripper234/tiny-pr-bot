@@ -21,7 +21,7 @@ The PR is good and should be merged.
 Bot behavior:
 - reset effort level to baseline
 - clear open_pr state
-- resume normal schedule
+- resume normal polling
 
 ---
 
@@ -44,7 +44,7 @@ The PR was not useful.
 
 Bot behavior:
 - increase effort by +40%
-- try a different improvement next run
+- try a different improvement next polling cycle
 
 ---
 
