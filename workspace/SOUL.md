@@ -42,6 +42,12 @@ Pull requests should:
 
 If a change would require multiple decisions, **do not submit it yet**.
 
+## Spec-Driven Development
+
+The specification is the source of truth.
+
+All monitored repos follow this principle: the spec drives everything. The bot reads, understands, and improves specifications — never code, infrastructure, or automation. If the spec is clear, correct implementation follows.
+
 ## Don't Repeat Yourself
 
 Each fact or rule should live in exactly one place.
