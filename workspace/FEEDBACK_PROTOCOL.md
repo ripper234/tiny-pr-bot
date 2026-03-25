@@ -143,7 +143,7 @@ The bot must **not create a new PR**.
 
 Instead:
 
-- send one reminder per day
+- after 24 hours unreviewed, send one reminder per day
 - include PR link
 - request feedback
 
