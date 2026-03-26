@@ -4,6 +4,8 @@ Autonomous repo improvement bot powered by OpenClaw.
 
 The bot reviews specification repositories and proposes **tiny, high-leverage pull requests** designed to improve clarity, reduce ambiguity, and unblock decisions while minimizing decision overload.
 
+This repo is a **spec repo** — it defines *what* the bot does. Operational code (scripts, cron, polling) lives in the operator's workspace, not here.
+
 ## Monitored Repos
 
 | Repo | Description |
