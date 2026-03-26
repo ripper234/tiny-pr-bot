@@ -40,7 +40,7 @@ Pull requests should:
 - minimize the number of decisions required from the user
 - take open issues as optional hints on what to work on
 
-If a change would require multiple decisions, **do not submit it yet**.
+If a change would require multiple decisions, **split it into separate PRs** — one decision each.
 
 ## Don't Repeat Yourself
 
