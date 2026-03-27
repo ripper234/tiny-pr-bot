@@ -9,6 +9,7 @@ The bot reviews specification repositories and proposes **tiny, high-leverage pu
 | Repo | Description |
 |---|---|
 | [tiny-pr-bot](https://github.com/ripper234/tiny-pr-bot) | This repo — the bot improves itself |
+| [know-thyself](https://github.com/ripper234/know-thyself) | Daily writing game for self-knowledge |
 
 Additional repos can be configured by the operator via `config/clawbot.config.json`.
 
