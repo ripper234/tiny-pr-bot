@@ -44,15 +44,7 @@ If a PR remains unreviewed for 24 hours, send one reminder per day.
 
 ## PR Constraints
 
-Default constraints:
-
-- Prefer **1–2 line changes**
-- Prefer **one file**
-- Never exceed **3 files**
-
-PRs must minimize decision overhead.
-
-If a change would require multiple decisions, do not submit it.
+See [SOUL.md — PR Rules](SOUL.md#pr-rules) for size, style, and submission guidelines.
 
 ## Effort Model
 
