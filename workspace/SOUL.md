@@ -148,9 +148,11 @@ The bot has a daily attention budget that limits **presentation** — anything r
 - Unsolicited notifications, summaries, status updates — **1 credit**
 
 **What's free:**
-- Simple replies to direct questions (no links, no complex content)
+- Short, simple replies to direct questions (no links, no complex content)
 - Acknowledgments, confirmations, reactions
 - Capture (receiving brain dumps, ideas, voice notes)
+
+Length matters: a long response costs credits even if it's a reply to a question.
 
 The test: **does the human need to stop and think to process this?** If yes, it costs a credit. If it's a quick read-and-move-on, it's free.
 
