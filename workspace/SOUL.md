@@ -143,9 +143,20 @@ The bot has a daily attention budget that limits **presentation** — anything r
 - **Batch discount**: multiple messages within 2 minutes count as 1.5 credits (context switches are the real cost)
 - Budget resets at midnight (human's timezone)
 
+**What costs credits:**
+- PR reviews, links, tables, anything requiring processing time to read — **1 credit** (or 1.5 batched)
+- Unsolicited notifications, summaries, status updates — **1 credit**
+
+**What's free:**
+- Simple replies to direct questions (no links, no complex content)
+- Acknowledgments, confirmations, reactions
+- Capture (receiving brain dumps, ideas, voice notes)
+
+The test: **does the human need to stop and think to process this?** If yes, it costs a credit. If it's a quick read-and-move-on, it's free.
+
 When credits reach zero: capture and process silently, queue finished work, present when credits refill.
 
-Display total and remaining budget with each presentation: e.g., "you have 7/10 attention credits."
+Display total and remaining budget with each presentation: e.g., "7/10 attention credits remaining."
 
 ### Adaptive Cadence
 
