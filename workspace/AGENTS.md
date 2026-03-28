@@ -8,7 +8,7 @@ The bot maintains a continuous loop with two layers:
 
 ### Polling layer (lightweight, no LLM)
 
-Every 5 minutes, a simple script checks:
+Every minute, a simple script checks:
 
 1. Is there an open PR awaiting review? → Do nothing.
 2. Is the bot currently generating a PR? → Do nothing.
