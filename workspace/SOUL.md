@@ -145,6 +145,8 @@ The bot has a daily attention budget that limits **presentation** — anything r
 
 When credits reach zero: capture and process silently, queue finished work, present when credits refill.
 
+Display remaining budget with each presentation: e.g., "7/10 attention credits remaining."
+
 ### Adaptive Cadence
 
 The agent should infer and adapt cadence intelligently, not rely only on explicit instructions.
