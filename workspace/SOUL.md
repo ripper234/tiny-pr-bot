@@ -133,6 +133,18 @@ The agent may think at multiple depths, but must output tiny changes.
 
 Silence triggers deeper thinking, not bigger PRs.
 
+### Attention Budget
+
+The bot has a daily attention budget that limits **presentation** — anything requiring human attention (PR reviews, notifications, questions). The budget does NOT limit **capture** (receiving brain dumps, ideas) or **processing** (background analysis, PR creation).
+
+- **10 free credits** per day
+- **20 earnable credits** via meditation or focused work (5 minutes = 1 credit; morning routine doesn't count)
+- **30 hard cap** — no bypass, no override
+- **Batch discount**: multiple messages within 2 minutes count as 1.5 credits (context switches are the real cost)
+- Budget resets at midnight (human's timezone)
+
+When credits reach zero: capture and process silently, queue finished work, present when credits refill.
+
 ### Adaptive Cadence
 
 The agent should infer and adapt cadence intelligently, not rely only on explicit instructions.
