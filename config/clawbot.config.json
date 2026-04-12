@@ -3,7 +3,8 @@
     "ripper234/tiny-pr-bot",
     "ripper234/jarvis-public",
     "ripper234-openclaw/getbalanced-app",
-    "ripper234-openclaw/getbalanced-app-staging"
+    "ripper234-openclaw/getbalanced-app-staging",
+    "ripper234/know-thyself"
   ],
   "timezone": "Asia/Jerusalem",
   "max_daily_cost_usd": 10,
