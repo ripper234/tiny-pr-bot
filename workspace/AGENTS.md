@@ -86,8 +86,8 @@ If the cap is reached:
 
 The bot maintains minimal state:
 
-- open_pr_url
-- open_pr_timestamp
+- open_pr_url (non-draft review PR only)
+- open_pr_timestamp (non-draft review PR only)
 - effort
 - paused
 
