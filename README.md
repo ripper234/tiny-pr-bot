@@ -8,9 +8,9 @@ The bot reviews specification repositories and proposes **tiny, high-leverage pu
 
 | Repo | Description |
 |---|---|
-| [tiny-pr-bot](https://github.com/ripper234/tiny-pr-bot) | This repo — the bot improves itself |
+| [tiny-pr-bot](https://github.com/ripper234/tiny-pr-bot) | This repo, currently the only configured target |
 
-Additional repos can be configured by the operator via `config/clawbot.config.json`.
+Additional repos can be added by the operator via `config/clawbot.config.json`.
 
 ## Core Idea
 
