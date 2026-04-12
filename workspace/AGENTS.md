@@ -10,7 +10,7 @@ The bot maintains a continuous loop with two layers:
 
 A cron-scheduled script periodically checks:
 
-1. Is there an open PR awaiting review? → Do nothing.
+1. Is there an open non-draft PR awaiting review? → Do nothing.
 2. Is the bot currently generating a PR? → Do nothing.
 3. Otherwise → Trigger the generation layer.
 
@@ -34,7 +34,7 @@ Allow up to 60 minutes for generation to ensure quality over speed.
 
 For each target repository, exactly one of the following must be true:
 
-- A PR is submitted and awaiting review
+- A non-draft PR is submitted and awaiting review
 - A PR is being generated right now
 - The bot is in idle state (no useful PR to propose)
 
