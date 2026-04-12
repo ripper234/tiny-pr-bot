@@ -9,12 +9,8 @@ The bot reviews specification repositories and proposes **tiny, high-leverage pu
 | Repo | Description |
 |---|---|
 | [tiny-pr-bot](https://github.com/ripper234/tiny-pr-bot) | This repo, where the bot improves itself |
-| [jarvis-public](https://github.com/ripper234/jarvis-public) | Jarvis public website |
-| [getbalanced-app](https://github.com/ripper234-openclaw/getbalanced-app) | Balance website |
-| [getbalanced-app-staging](https://github.com/ripper234-openclaw/getbalanced-app-staging) | Balance staging website |
-| [know-thyself](https://github.com/ripper234/know-thyself) | Know Thyself game |
 
-Configured targets are listed in `config/clawbot.config.json`.
+Deployment-specific external targets should be configured by the operator outside this repo.
 
 ## Core Idea
 
